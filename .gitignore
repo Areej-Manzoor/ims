@@ -22,7 +22,7 @@
 /client/package-lock.json
 /client/pnpm-lock.yaml
 /client/yarn.lock
-/client/build/
+#/client/build/
 # If using `create-react-app`:
 # /client/.env.local
 # /client/.env.development.local
