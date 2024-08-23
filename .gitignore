@@ -1,0 +1,54 @@
+# Node.js (Server) Specific
+/server/node_modules/
+/server/.env
+/server/.DS_Store
+/server/*.log
+/server/pnpm-debug.log*
+/server/yarn-error.log
+/server/package-lock.json
+/server/pnpm-lock.yaml
+/server/yarn.lock
+/server/coverage/
+/server/dist/
+/server/build/
+
+# React (Client) Specific
+/client/node_modules/
+/client/.env
+/client/.DS_Store
+/client/*.log
+/client/pnpm-debug.log*
+/client/yarn-error.log
+/client/package-lock.json
+/client/pnpm-lock.yaml
+/client/yarn.lock
+/client/build/
+# If using `create-react-app`:
+# /client/.env.local
+# /client/.env.development.local
+# /client/.env.test.local
+# /client/.env.production.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor Specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS Specific
+*.swp
+*.swo
+
+# Others
+*.cache
+*.tmp
